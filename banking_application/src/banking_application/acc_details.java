@@ -5,10 +5,6 @@ public class acc_details {
 		// TODO Auto-generated method stub
 
 		Account customerAccount1 = new Account("ip", "22");
-
-		
-		
-//		Account beyonce = new Account("Beyonce", "B00002");
 		customerAccount1.showMenu();
 		
 		
