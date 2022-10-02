@@ -84,7 +84,7 @@ class Account {
     void showMenu() {
         char option = '\0';
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome, " + customerName + "!");
+        System.out.println("Welcome to IDFC First Bank, " + customerName + "!");
         System.out.println("Your ID is: " + customerID);
         System.out.println();
         System.out.println("What would you like to do?");
@@ -92,7 +92,7 @@ class Account {
         System.out.println("A.view balance");
         System.out.println("B.deposit");
         System.out.println("C.withdrawal");
-        System.out.println("D transfer  amount");
+        System.out.println("D.transfer  amount");
         System.out.println("E. Exit");
 
         do {
